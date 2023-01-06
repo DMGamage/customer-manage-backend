@@ -12,6 +12,7 @@ import javax.persistence.Id;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class User {
     @Id
     @GeneratedValue
@@ -19,5 +20,6 @@ public class User {
     private String username;
     private String name;
     private String email;
+
 
 }
